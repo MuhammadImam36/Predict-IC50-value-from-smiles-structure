@@ -1,7 +1,7 @@
 # Predict-IC50-value-from-smiles-structure
 
 ## Deployment:
-Proyek ini dideploy sebagai aplikasi web prediksi menggunakan microframework Flask. Flask mendukung penggunaan bahasa pemrograman HTML, CSS, PHP, dan JS untuk kebutuhan front end, sementara bagian backend menggunakan bahasa pemrograman Python.
+Proyek ini dideploy sebagai aplikasi web prediksi menggunakan microframework Flask. Flask mendukung penggunaan bahasa pemrograman HTML dan CSS untuk kebutuhan front end, sementara bagian backend menggunakan bahasa pemrograman Python.
 
 ## Struktur projek:
 - Folder (folder utama)
