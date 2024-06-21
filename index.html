@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PREDIKSI IC50</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediksi IC50 Pada Struktur Smiles</h1>
+        <form method="POST">
+            <label for="smiles">Enter SMILES:</label>
+            <input type="text" id="smiles" name="smiles" required>
+            <button type="submit">Mulai Prediksi</button>
+        </form>
+        {% if prediction is not none %}
+        <div class="result">
+            <h2>Hasil Prediksi</h2>
+            <p>SMILES: {{ smiles }}</p>
+            <p>Prediksi IC50: {{ prediction }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
